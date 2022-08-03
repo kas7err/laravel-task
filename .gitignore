@@ -1,5 +1,10 @@
 /node_modules
+/public/js
+/public/css
 /public/hot
+/public/mix-manifest.json
+package-lock.json
+composer.lock
 /public/storage
 /storage/*.key
 /vendor
