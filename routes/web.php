@@ -10,7 +10,7 @@ Route::get('/', function () {
 
 Route::get('/email-template', function () {
     return view('email.index', [
-        'inquery' => [
+        'Inquiry' => [
             'name' => 'Jhon Dow',
             'phone' => '55533321',
             'email' => 'fakemail.abv.bg',

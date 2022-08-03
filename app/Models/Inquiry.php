@@ -12,8 +12,8 @@ class Inquiry extends Model
     protected static function boot()
     {
         parent::boot();
-        static::created(function ($inquery) {
-            \Mail::to('fakemail@abv.bg')->send(new \App\Mail\NewInquery($inquery));
+        static::created(function ($Inquiry) {
+            \Mail::to('fakemail@abv.bg')->send(new \App\Mail\NewInquiry($Inquiry));
         });
     }
 

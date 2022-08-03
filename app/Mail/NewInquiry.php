@@ -7,20 +7,20 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class NewInquery extends Mailable
+class NewInquiry extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $inquery;
+    public $Inquiry;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($inquery)
+    public function __construct($Inquiry)
     {
-        $this->inquery = $inquery;
+        $this->Inquiry = $Inquiry;
     }
 
     /**
