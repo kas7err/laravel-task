@@ -109,8 +109,6 @@ import axios from 'axios';
                     })
                     .catch(e => {
                         if (e.response.status === 422) {
-                            // let errors = Object.values(e.response.data.errors);
-                            // this.validationErrors = errors.flat()
                             this.validationErrors = e.response.data.errors
                         }
                     })
