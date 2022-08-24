@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <div class="flex h-screen pt-10">
-        <div class=" m-auto" id="app">
+    <div class="h-screen flex flex-col items-center justify-center">
+        <div id="app">
             @yield('content')
         </div>
     </div>

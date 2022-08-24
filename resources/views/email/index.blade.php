@@ -10,7 +10,7 @@
 <body>
     <div class="flex h-screen pt-10">
         <div class="m-auto">
-           <div class="content" style="width: 75vh">
+           <div class="content">
             <h1><span class="font-semibold">Name: </span>{{ $Inquiry['name'] }}</h1>
             <p><span class="font-semibold">Phone: </span>{{ $Inquiry['phone'] }}</p>
             <p><span class="font-semibold">Email: </span>{{ $Inquiry['email'] }}</p>
